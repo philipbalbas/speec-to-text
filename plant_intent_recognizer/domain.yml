@@ -1,0 +1,29 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - thanks
+  - out_of_scope
+
+actions:
+  - utter_noworries
+  - utter_greet
+  - utter_goodbye
+
+responses:
+  utter_greet:
+    - text: "Hi. What are you looking for?"
+    - text: "Hey there! Please choose one of the healthcare facility options:"
+    - text: "Hello! What can I help you find today?"
+
+  utter_goodbye:
+    - text: "Talk to you later!"
+    - text: "Have a good day."
+    - text: "Until next time!"
+
+  utter_noworries:
+    - text: "My pleasure."
+    - text: "You are welcome!"
